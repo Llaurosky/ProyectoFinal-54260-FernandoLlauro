@@ -1,0 +1,52 @@
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <section class="pie-de-pagina">
+                        <h4>Servicios</h4>
+                        <nav class="lista-footer">
+                            <ul>
+                                <a href="pages/servicios.html">
+                                    <li>Plasma enriquecido en plaquetas</li>
+                                </a>
+                                <a href="pages/servicios.html">
+                                    <li>Acido Hialuronico</li>
+                                </a>
+                                <a href="pages/servicios.html">
+                                    <li>Planning Nutricional</li>
+                                </a>
+                                <a href="pages/servicios.html">
+                                    <li>Pellet - Chip Sexual</li>
+                                </a>
+                            </ul>
+                        </nav>
+                    </section>
+                </div>
+                <div class="col-6">
+                    <h4>Contacto</h4>
+                    <div class="sedes">
+                        <h5>Direccion</h5>
+                        <p>Av. Cabildo y Gorostiaga, Belgrano</p>
+                        <h5>Telefono</h5>
+                        <p>1112345678</p>
+                    </div>
+                    <div class="sedes">
+                        <h5>Direccion</h5>
+                        <p>Los Narcisos 699-799, Pilar Centro, Provincia de Buenos Aires</p>
+                        <h5>Telefono</h5>
+                        <p>1112345678</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <h4>Newsletter</h4>
+
+                    <input type="email" name="" id="correo-electronico" placeholder="Ingresa tu correo Electronico">
+                    <input type="submit" value="Enviar">
+
+
+                    <a target="_blank" href="https://www.instagram.com/estetica.kairos/"><img src="img/instagram.svg"
+                            alt="Logo instagram"></a>
+
+                    <a target="_blank" href="#"><img ID="whatsapicon" src="img/whatsapp.svg" alt="Logo whatsapp"
+                            alt="Logo whatsapp"></a>
+                </div>
+            </div>

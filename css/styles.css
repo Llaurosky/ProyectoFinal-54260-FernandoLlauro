@@ -1,0 +1,290 @@
+/* PALETA DE COLORES */
+/* FUENTES */
+/* RESOLUCIONES DE PANTALLA */
+/* SEPARACIONES (margenes y paddings) */
+/* IMPORTS */
+/* MIXIN */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header {
+  background-color: #e6e9f0;
+  margin-bottom: 50px;
+  height: auto;
+}
+
+.logo {
+  border-radius: 100px;
+}
+
+.nav-item {
+  font-size: 20px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #e3eef4;
+  justify-content: center;
+  align-items: center;
+}
+body h3 {
+  font-size: 20px;
+}
+body p {
+  font-size: 14px;
+}
+
+.texto-principal p {
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-left: 20px;
+  text-align: left;
+  margin-top: 40px;
+  text-size-adjust: auto;
+}
+
+p {
+  margin-left: 20px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.carousel-item {
+  justify-items: center;
+  align-items: center;
+}
+.carousel-item img {
+  margin-top: auto;
+  height: 100px;
+}
+
+@media (min-width: 425px) {
+  .carousel-item img {
+    height: 60vh;
+  }
+  .texto-principal {
+    /*  height: 35vh; */
+    width: 35vh;
+  }
+}
+@media (min-width: 768px) {
+  .carousel-item img {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media (min-width: 992px) {
+  .carousel-item img {
+    width: 200px;
+    height: 200px;
+  }
+}
+/* 
+maps {
+    max-width: 100%;
+}  */
+.sede-1,
+.sede-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  background-color: #88a2d4;
+  height: auto;
+  width: auto;
+}
+footer li {
+  text-align: left;
+  justify-content: left;
+}
+footer h4 {
+  text-align: center;
+  justify-content: left;
+  font-size: 20px;
+}
+footer h5,
+footer p {
+  text-align: left;
+  justify-content: left;
+  font-size: 14px;
+}
+
+@media (min-width: 425px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.footer-top {
+  background-color: #88a2d4;
+  width: auto;
+  height: auto;
+}
+
+.social-links {
+  justify-content: center;
+  align-items: center;
+}
+.social-links .redes-logos {
+  width: 25px;
+  margin-left: 20px;
+}
+
+.row-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.row-principal .d-block {
+  width: auto;
+  height: 500px;
+}
+
+@media (max-width: 768px) {
+  .row-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+  }
+  .texto-principal {
+    width: auto;
+  }
+  .carousel-inner {
+    width: auto;
+  }
+}
+@media (max-width: 425px) {
+  .row-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+  }
+  .texto-principal {
+    width: auto;
+  }
+  .carousel-inner {
+    width: auto;
+  }
+}
+.boton {
+  width: 200px;
+  padding: 8px 10px;
+  border-radius: 20px;
+}
+
+#whatsapicon {
+  width: 50px;
+}
+
+.main-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 425px) {
+  main {
+    width: auto;
+  }
+  .main-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+  .container-instagram {
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 768px) {
+  .main-contacto {
+    display: flex;
+    flex-direction: column;
+    /* display: grid;
+    grid-template-columns: repeat(2, 2fr); */
+    align-items: center;
+    justify-items: center;
+  }
+  .container-instagram {
+    width: auto;
+    align-items: center;
+    justify-content: center;
+  }
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+form .campos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.botones-form {
+  border: solid 1px #b2b2b2;
+  width: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(158, 225, 252);
+  font-weight: bold;
+}
+.botones-form:hover {
+  background-color: #000;
+  color: rgb(158, 225, 252);
+}
+
+textarea {
+  height: 150px;
+  width: 400px;
+}
+
+.container-instagram {
+  width: 700px;
+}
+
+.accordion-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen-experiencia {
+  width: 400px;
+}
+
+/*# sourceMappingURL=styles.css.map */

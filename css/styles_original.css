@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#pagina-principal {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#arriba {
+    background-color:#e3eef4;**
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+body {
+    background-color: #f6f1eb;
+    background-size: cover; 
+    background-size: ;
+}
+
+.carousel-item {
+    width: 500px;
+    margin: 2em;
+}
+
+.text-portada {
+    width: 250px;
+    margin-bottom: 50px;
+}
+
+/*DISPLAY*/
+.menu-navegacion li {
+    display: inline;
+    margin: auto;
+    border: 1px groove #ccc;
+    padding: 20px;
+    margin-left: 50px;
+    
+}
+
+.banner-portada {
+    display: flex;
+    align-items: right;
+}
+
+.logo {
+    margin-bottom: 10px;
+    border: 1px #ccc solid;
+
+}
+
+
+.sedes {
+    display: inline;
+    margin: auto;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+/*FOOTER*/
+
+footer {
+    padding: 1rem;
+    margin: 1px;
+    background-color: #e3eef4;
+    ;
+}
+
+.logo-footer {
+    width: 50px;
+}
+
+.lista-footer {
+    list-style: none;
+}
+
+.pie-de-pagina {
+    display: inline;
+    height: 10rem;
+}

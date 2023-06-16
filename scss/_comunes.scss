@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header {
+    background-color: #e6e9f0;
+    margin-bottom: 50px;
+    height: auto;
+}
+
+.logo {
+    border-radius: 100px;
+}
+
+.nav-item {
+    font-size: $fuente-media;
+}
+
+
+body {
+    font-family: $fuente-principal;
+    background-color: $color-background;
+    justify-content: center;
+    align-items: center;
+
+    h3 {
+        font-size: $fuente-media;
+    }
+
+    p {
+        font-size: $fuente-chica;
+    }
+}
+
+.texto-principal {
+    p {
+        font-size: $fuente-media;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin-left: 20px;
+    text-align: left;
+    margin-top: $espacio-medio;
+    text-size-adjust: auto;
+}
+
+p {
+    margin-left: 20px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.carousel-item {
+    justify-items: center;
+    align-items: center;
+
+    img {
+        margin-top: auto;
+        height: 100px;
+    }
+}
+
+
+
+@media (min-width: $mobile) {
+    .carousel-item img {
+        height: 60vh;
+    }
+
+    .texto-principal {
+        /*  height: 35vh; */
+        width: 35vh;
+    }
+}
+
+@media (min-width: $tablet) {
+    .carousel-item img {
+        @include medidas (150px, 150px);
+    }
+}
+
+@media (min-width: $desktop) {
+    .carousel-item img {
+        @include medidas (200px, 200px);
+    }
+}
+
+/* 
+maps {
+    max-width: 100%;
+}  */
+
+.sede-1,
+.sede-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #88a2d4;
+    height: auto;
+    width: auto;
+
+    li {
+        text-align: left;
+        justify-content: left;
+    }
+
+    h4 {
+        text-align: center;
+        justify-content: left;
+        font-size: $fuente-media;
+    }
+
+
+    h5,
+    p {
+        text-align: left;
+        justify-content: left;
+        font-size: $fuente-chica;
+    }
+}
+
+@media (min-width: $mobile) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.footer-top {
+    background-color: #88a2d4;
+    width: auto;
+    height: auto;
+}
+
+.social-links {;
+    justify-content: center;
+    align-items: center;
+    
+    .redes-logos {
+        width: 25px;
+        margin-left: 20px;
+    }
+
+}
